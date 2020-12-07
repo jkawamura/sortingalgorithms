@@ -1,5 +1,4 @@
 const board = document.getElementById("board");
-window.onload = createBoard();
 
 function createBoard(){
     for(let i = 0; i < 16; i++){
