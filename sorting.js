@@ -10,7 +10,8 @@ function createBoard(){
         bar = document.createElement("div");
         bar.style.width = "40px";
         bar.style.color = "black";
-        Math.floor(Math.random() * 300);
+        let height = Math.floor(Math.random() * 300);
+        bar.style.height = string(height);
         board.append(bar);
     }
 }
