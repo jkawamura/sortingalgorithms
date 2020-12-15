@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="sorting.js"></script>
+    <script src="sorting.js" defer></script>
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body onload="createBoard()">
-    <div id="board"></div>
+<body>
+    <div class="button-bar">
+        <button onclick="bubbleSort()">BubbleSort</button>
+        <button onclick="insertionSort()">InsertionSort</button>
+    </div>
+    <table>
+        <tr class = "board"></tr>
+    </table>
+    <button onclick="reset()">Reset</button>
 </body>
 </html>

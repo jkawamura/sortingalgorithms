@@ -1,3 +1,17 @@
-#board {
+table {
+    border-collapse: collapse;
+}
+
+.button-bar {
+    display: flex;
+}
+
+.board {
     width: 600px;
+    height: 300px;
+    border: solid 2px black;
+}
+
+
+.bar {
 }
